@@ -68,6 +68,7 @@
     </style>
   </head>
   <body class="font-manrope">
+    <!-- Header -->
     <header class="container mx-auto my-14">
       <div class="navbar  bg-base-100">
         <div class="navbar-start flex-1">
@@ -124,9 +125,9 @@
     </header>
     <main class="container px-5 lg:px-8 mx-auto">
       <!-- slide section  -->
-      <div class="carousel w-full max-h-[550px] my-16">
+      <div class="carousel w-full max-h-[550px] my-16 relative ">
         <!-- slide 1  -->
-        <div id="slide1" class="carousel-item relative w-full">
+        <div id="slide1" class="carousel-item w-full">
           <img src="Images/slide1.png" class="w-full rounded-2xl" />
           <div
             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -152,6 +153,14 @@
             <a href="#slide1" class="btn btn-circle">❯</a>
           </div>
         </div>
+      </div>
+      <!-- Relative section of slide  -->
+      <div class="lg:absolute  lg:top-[57%] lg:right-[20%]  bg-black p-4 lg:p-8 rounded-2xl box-border ">
+        <h1 class="text-white text-xl lg:text-2xl font-extrabold mb-4">Meet all the heroes from the field</h1>
+        <p class="para-text text-[#FFFFFF99] max-w-[500px]">Meet our field heroes—dedicated, skilled, and passionate individuals 
+          shaping extraordinary experiences, ensuring your journey is exceptional and memorable.
+        </p>
+
       </div>
       <!-- donut target section -->
       <div class="text-center my-16">
@@ -574,6 +583,7 @@
         </div>
       </div>
     </main>
+    <!-- footer  -->
     <footer class="footer lg:mt-28 mx-auto p-8 lg:p-36 bg-[#131318] text-[#FFFFFF99]">
       <!-- column 1  -->
       <nav class="px-8 lg:px-36">
